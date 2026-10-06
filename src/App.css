@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+}
+
+@import "./components/lightswind.css";
+
+
+
+/* Fonts loaded via @fontsource/geist-sans in main.tsx */
+* {
+  font-family: "Geist Sans", sans-serif !important;
+}
+
+
+
+
